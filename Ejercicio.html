@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+  //fundamentos de JavaScript
+        console.log(" ¡Hola, Mundo");
+        //Variables
+        let nombre="Carmen";
+
+        //Tipos de datos
+        let numero = 42; //número
+        let texto ="Hola"; //cadena de texto
+        let booleano = true; // booleano
+
+        let hora =20; //prueba con diferentes horas, ej, 9, 14, 18
+
+        
+        if (hora < 12){
+            console.log("Buenos días");
+        }else  if(hora<18){
+            console.log("Buenas tardes");
+        }else{
+            console.log("Buenas noches");
+        }
+
+
+        for (let i = 0; i<6; i++){
+              console.log("interación " + i);
+        }
+
+        let contador =0;
+        while (contador < 10){
+            console.log("contando de 0 a 9:" + contador );
+            contador++;
+        }
+
+        //Declaración de función
+        function saludar(nombre){
+            
+            return "Hola, " + nombre+ "!";
+        }
+        console.log(saludar("Carmen")); //llama la función
+        console.log(saludar("Mariela"));
+
+        let name = prompt("¿Cuál es tu nombre?",);
+        alert("Hola, "  + nombre);
+        document.write("Hola, " + nombre + "<br>");
+
+        function saludar(nombre){
+
+            return "Buenos días, " + nombre + "!";
+
+        }
+        
+        
+
+    </script>
+</body>
+</html>
